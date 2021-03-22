@@ -51,7 +51,7 @@ addons:
   sonarcloud:
     organization: "infinity-krapfen" # der key der organisation auf sonarcloud.io
     token:
-        secure: b272f0eea8ca2a3509771c657b9e15ede6ed3d15
+        secure: dec8e4c9c5f506269ee6e5fa06ddb280a7dab846
 
 # benachrichtigungen per email ausschalten
 notifications:
