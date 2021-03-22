@@ -1,5 +1,15 @@
+
 plugins {
     id 'com.android.application'
+    id "org.sonarqube" version "3.1.1"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "infinity-krapfen_travis-sonar"
+        property "sonar.organization", "infinity-krapfen"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
 }
 
 android {
